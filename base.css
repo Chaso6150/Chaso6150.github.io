@@ -1,0 +1,117 @@
+@charset "utf-8";
+
+/*============================================
+全般的なスタイル
+============================================*/
+* {
+	margin:0; padding:0; 		
+}
+
+body {
+	background-image : url(images/BGI.png);
+	/*background-color:#FFFFFF;*/		
+	font-size:95%;		
+	font-family: "メイリオ",sans-serif;	
+	line-height:1.5;	
+	color:#000000;		
+	margin:0px 100px; 		
+}
+#pagebody {
+	width:1000px; margin:0 auto;	
+	background-color:#FFFFFF;
+}
+
+/*============================================
+メインメニュー
+============================================*/
+
+#menu {
+	width:900px; height:600px; 	
+	margin:0px 100px; 	
+}
+
+li {
+	list-style-type:none;		
+}
+
+#menu{
+	padding:0;
+	list-style-type:none;
+	overflow:hidden;
+}
+#menu li {
+	list-style-type:none;	
+	display:inline;		
+	width:45%;
+	padding:3px 0px;
+}
+
+#menu li a {
+	background-color:white;	
+	color:#000000;		
+	display:block;			
+	width:400px; height:300px;	
+	padding:0px 0px 0px 0px;	
+	text-align:center;		
+	text-decoration:none;		
+}
+
+
+#menu1 a{
+	background-image:url(images/Profile.png);	
+	background-repeat:no-repeat; 	
+}
+#menu1 a:hover {
+	background-image:url(images/Profile2.png); 
+	background-repeat:no-repeat; 	
+}
+
+#menu2 a{
+	background-image:url(images/Products.png);	
+	background-repeat:no-repeat; 	
+}
+#menu2 a:hover {
+	background-image:url(images/Products3.png); 	
+	background-repeat:no-repeat; 	
+}
+
+#menu3 a{
+	background-image:url(images/Tech.png);	
+	background-repeat:no-repeat; 	
+}
+#menu3 a:hover {
+	background-image:url(images/Tech2.png); 	
+	background-repeat:no-repeat; 	
+}
+
+#menu4 a{
+	background-image:url(images/Closed.png);
+	background-repeat:no-repeat; 		
+}
+
+#menu4 a:hover {
+	background-image:url(images/Closed.png); 	
+	background-repeat:no-repeat; 	
+}
+
+ul#menu li:nth-child(even){
+	float:left;
+}
+ul#menu li:nth-child(odd){
+	float:left;
+	clear:left;
+}
+
+/*============================================
+ヘッダ画像
+============================================*/
+#img_index {
+	width:960px; height:360px;	
+	margin:5px 20px;	
+}
+/*============================================
+本文
+============================================*/
+.title-underline{
+    border-bottom: 3px solid rgb(0, 162, 232);
+}
